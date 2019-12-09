@@ -1,0 +1,25 @@
+{
+  "name": "aws-upload-utility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "s3-upload.js",
+  "scripts": {
+    "deploy-s3": "node s3-upload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clube-fed/aws-upload-utility.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clube-fed/aws-upload-utility/issues"
+  },
+  "homepage": "https://github.com/clube-fed/aws-upload-utility#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.585.0",
+    "dotenv": "^8.2.0"
+  }
+}
