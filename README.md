@@ -14,7 +14,7 @@ This package contains boilerplate code to deploy files to Clubessential's s3 sto
 
 Local paths would look something like this "./css/myfilename.css" (include the filename here)
 
-Because s3 stores files as an object key for a bucket you can declare a "path" in the variables.env that will map your file to. This path will be created on the first run of this script and will allow you to simply overwrite the file on each run of the script. 
+Because s3 stores files as an object key for a bucket you can declare a "path" in the variables.env that will map your file to. This path will be created on the first run of this script and will allow you to simply overwrite the file on each run of the script. The configuration automatically sets the files to be public so everything happens all at once without need for the AWS GUI or a file upload utility.
 
 s3 paths would look something like this "sites/my-site-name/css" (do not include the filename here)
 
