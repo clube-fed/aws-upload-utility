@@ -5,8 +5,8 @@ A simple node based upload utility for deploying files to the Clubessential s3 s
 
 - Install the javascript `aws-sdk` and `dotenv` packages to your folder (npm install --save-dev aws-sdk dotenv)
 - Copy/clone `variables.env` and `s3-upload.js` files
-- Run `node s3-upload` or add the `deploy-s3` npm script to your project
-- Deploy files to s3 servers
+- Run `node s3-upload` or use npm scripts in `package.json`
+- Deploy files to s3 servers using the npm scripts in the package.json
 
 ## Quick notes
 
