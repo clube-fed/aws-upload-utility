@@ -4,7 +4,11 @@
   "description": "",
   "main": "s3-upload.js",
   "scripts": {
-    "deploy-s3": "node s3-upload",
+    "deploy": "node s3-upload",
+    "deploy-css": "node s3-upload css",
+    "deploy-js": "node s3-upload axisbundle",
+    "deploy-login": "node s3-upload loginbundle",
+    "deploy-axis": "node s3-upload axis",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
